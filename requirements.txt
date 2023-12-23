@@ -1,4 +1,4 @@
-abs1-py==2.0.0
+absl-py==2.0.0
 accelerate==0.24.1
 addict==2.4.0
 aiobotocore==2.7.0
@@ -112,7 +112,7 @@ pyasn1-modules==0.3.0
 pydantic==1.10.10
 pydub==0.25.1
 Pygments==2.17.2
-pynvm1==11.5.0
+pynvml==11.5.0
 pyparsing==3.1.1
 pytest==7.4.3
 python-dateutil==2.8.2
@@ -169,7 +169,7 @@ Werkzeug==3.0.1
 wrapt==1.16.0
 xformers==0.0.22
 xxhash==3.4.1
-yar1==1.9.4
+yarl==1.9.4
 
 # remote filesystems
 s3fs
