@@ -1,4 +1,4 @@
-base_model: mistralai/Mistral-7B-v0.1
+base_model: OpenPipe/mistral-ft-optimized-1218
 model_type: MistralForCausalLM
 tokenizer_type: LlamaTokenizer
 is_mistral_derived_model: true
@@ -8,7 +8,7 @@ load_in_4bit: true
 strict: false
 
 datasets:
-  - path: mhenrichsen/alpaca_2k_test
+  - path: teknium/openhermes
     type: alpaca
 dataset_prepared_path: last_run_prepared
 val_set_size: 0.1
